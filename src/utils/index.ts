@@ -1,1 +1,2 @@
-export { Resolve } from './resolve';
+export { resolve } from './resolve';
+export { sleep } from './sleep';
