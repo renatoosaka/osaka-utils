@@ -15,8 +15,12 @@
     "format": "prettier --write --no-error-on-unmatched-pattern \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renatoosaka/osaka-utils.git"
+  },
   "author": "Renato Hideki Osaka",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "lib/**/*"
   ],
