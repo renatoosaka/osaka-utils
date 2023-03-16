@@ -11,7 +11,7 @@ root.render(
 )
 
 function App() {
-  const [value, toggle] = useToggle(0, [0, 1])
+  const [value, toggle] = useToggle(0, [1, 4])
 
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
       <pre>{value}</pre>
       <button
         onClick={() => {
-          toggle(1)
+          toggle()
         }}
       >
         Click me
