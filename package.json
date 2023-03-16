@@ -1,6 +1,6 @@
 {
   "name": "osaka-utils",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "An utility library",
   "main": "lib/cjs/index.js",
   "types": "lib/esm/index.d.ts",
@@ -32,7 +32,6 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^24.0.1",
     "@types/jest": "^29.4.2",
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.28",
