@@ -11,7 +11,9 @@ root.render(
 )
 
 function App() {
-  const [value, toggle] = useToggle(0, [1, 4])
+  const [value, toggle] = useToggle<string>({
+    options: ['On', 'Off']
+  })
 
   return (
     <>
