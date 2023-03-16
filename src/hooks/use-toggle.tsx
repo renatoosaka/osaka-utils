@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export function useToggle<T>(initialValue: T, options: [T, T]): [T, (data: T) => void] {
+export function useToggle<T>(initialValue: T, options: [T, T]): [T, () => void] {
   const [state, setState] = useState(initialValue)
 
   function toggle() {
